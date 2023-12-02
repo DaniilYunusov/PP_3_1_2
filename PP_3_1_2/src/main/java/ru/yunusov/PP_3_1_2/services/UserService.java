@@ -1,0 +1,11 @@
+package ru.yunusov.PP_3_1_2.services;
+import ru.yunusov.PP_3_1_2.models.User;
+
+import java.util.List;
+
+public interface UserService {
+     List<User> getUsers();
+     User getUser(int id);
+     void save(User user);
+     void delete(int id);
+}
